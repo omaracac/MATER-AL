@@ -1,0 +1,359 @@
+
+body{  
+    background-color: darkslategrey;  
+    font-family:baby bl ;  
+      
+    }  
+    *{  
+        margin: 0;  
+        padding: 0;  
+        box-sizing: border-box;  
+    }  
+    .navbar {
+        position: fixed;
+        z-index: 2;
+        width: 70%;
+    }
+      
+      
+    section{  
+       padding-top: 70px;
+        display: flex;  
+        flex-direction: row;  
+        justify-content: start;  
+       margin: 0px;  
+          
+    }  
+    .card{  
+        width: 400px;  
+        height: auto;  
+        margin: 0px  4px ;  
+    }  
+    .card-img-top{  
+       margin: 0px 0px;  
+    }  
+      
+    .card-img-top{  
+        width: 270px;  
+        height: 300px;  
+        background-size: cover; 
+        padding-top: 0px; 
+    }  
+    .bt1{  
+        background-color: rgb(4, 62, 221);  
+        width: 130px;  
+        height: 45px;  
+        border-radius: 12px;  
+        margin: auto;  
+        color: white; 
+        
+        margin-top: 100pxx;
+        margin-bottom: 10px;
+       
+      
+    }  
+    .bt1:hover{
+        background-color: rgb(7, 87, 119);
+      
+    }
+    .card-body button{  
+        margin-left:45px ;  
+    }  
+    /* .btn-success{  
+  
+      
+      
+      
+    }   */
+     ul  li{
+        color: black;
+        font-size: 455px;
+        text-align: center;
+        /* background-color: rgb(66, 56, 66); */
+    }
+
+    .card-title{
+        text-align: center;
+        color: rgb(5, 34, 51);
+        background-color: rgb(175, 169, 160);
+    }
+    ul li{  
+        list-style-type: none;  
+        font-size: 25px;  
+    }  
+    .bt2{  
+    align-items: center;  
+    margin-left: 37%;  
+    width: 300px;  
+    height: 80px;  
+    background-color: rgb(31, 72, 110);  
+    padding-bottom: 25px;  
+    }  
+    .bt2 p{  
+        color: rgb(118, 200, 255);  
+        font-size: 17px;  
+        text-decoration: underline;  
+         
+    } 
+   .bt2{
+    margin-left: 400px;
+    height: 50px;
+    background-color: rgb(23, 72, 92);
+    color: antiquewhite;
+    font-size: 25px;
+    border-radius: 10px;
+   }
+   .div9{
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    background-color: rgb(5, 34, 51);
+    justify-content: space-around;
+    color: rgb(97, 64, 21);
+   }
+   .div9 i{
+    color: rgb(99, 86, 28);
+   }
+
+   .div10{
+    display: flex;
+    color: white;
+
+   }
+
+
+@media  (max-width:768px)  {
+    body{  
+        background-color: darkslategrey;  
+        
+          
+        }  
+        
+        .navbar {
+            position: f;
+            z-index: 2;
+            width: 80%;
+        }
+          
+          
+        section{  
+           padding-top: 70px;
+            display: flex;  
+            flex-direction: row;  
+            justify-content: start;  
+           margin: 0px;  
+              
+        }  
+        .card{  
+            width: 500px;  
+            height: 450px;  
+            margin: 0px  4px ;  
+        }  
+        .card-img-top{  
+           margin: 0px 0px;  
+        }  
+          
+        .card-img-top{  
+            width: 120px;  
+            height: 300px;  
+            background-size: cover; 
+            padding-top: 0px; 
+        }  
+        .bt1{  
+            background-color: rgb(4, 62, 221);  
+            width: 100px;  
+            height: 45px;  
+            border-radius: 12px;  
+            margin: auto;  
+            color: white;  
+           
+          
+        }  
+        .bt1:hover{
+            background-color: rgb(7, 87, 119);
+          
+        }
+        .card-body button{  
+            margin-left:-10px ;  
+        }  
+         
+        ul li{  
+            list-style-type: none;  
+            font-size: 17px;  
+        }  
+        .bt2{  
+        align-items: center;  
+        margin-left: 37%;  
+        width: 100px;  
+        height: 80px;  
+        margin-bottom: -2px;
+        background-color: rgb(31, 72, 110);  
+        padding-bottom: 25px;  
+        }  
+        .bt2 p{  
+            color: rgb(118, 200, 255);  
+            font-size: 17px;  
+            text-decoration: underline;  
+             
+        } 
+       .bt2{
+        margin-left: 400px;
+        height: 50px;
+        background-color: rgb(23, 72, 92);
+        color: antiquewhite;
+        font-size: 25px;
+        border-radius: 10px;
+       }
+       .div9{
+        display: flex;
+        flex-direction: row;
+        font-size: 50px;
+        background-color: rgb(5, 34, 51);
+        justify-content: space-around;
+        color: rgb(97, 64, 21);
+       }
+       .div9 i{
+        color: rgb(99, 86, 28);
+       }
+    
+       .div10{
+        display: flex;
+        color: white;
+
+       }
+
+       .bt2{
+       
+        margin-top: -40px;
+        padding-bottom: -200px;
+        
+       }
+       .card-title{
+        font-size:17px;
+       }
+       .list li{
+        font-size: 15px;
+       }
+}
+
+@media (max-width: 567px){
+    body{  
+        background-color: rgb(37, 58, 58);  
+        
+          
+        }  
+        
+        .navbar {
+            
+            z-index: 2;
+            width: 95%;
+        }
+          
+          
+        section{  
+           padding-top: 70px;
+            display: flex;  
+            flex-direction: column;  
+            justify-content: start;  
+           margin: 10px auto;  
+              
+        }  
+        .card{  
+            width: 500px;  
+            height: 500px;  
+            margin: 5px  auto ;  
+        }  
+        .card-img-top{  
+           margin: 0px 0px;  
+        }  
+          
+        .card-img-top{  
+            width: 280px;  
+            height: 300px;  
+            background-size: cover; 
+            padding-top: 0px; 
+        }  
+        .bt1{  
+            background-color: rgb(4, 62, 221);  
+            width: 100px;  
+            height: 45px;  
+            border-radius: 12px;  
+            margin: 5px  auto;  
+            color: white;  
+            
+            
+           
+          
+        }  
+        .bt1:hover{
+            background-color: rgb(7, 87, 119);
+          
+        }
+        .card-body button{  
+            margin-left:70px ;  
+        }  
+         
+        ul li{  
+            list-style-type: none;  
+            font-size: 22px;  
+        }  
+        .bt2{  
+        align-items: center;  
+        margin-left: 37%;  
+        width: 100px;  
+        height: 80px;  
+        margin-bottom: -2px;
+        background-color: rgb(31, 72, 110);  
+        padding-bottom: 25px;  
+        
+        }  
+        .bt2 p{  
+            color: rgb(118, 200, 255);  
+            font-size: 17px;  
+            text-decoration: underline;  
+             
+        } 
+       .bt2{
+        margin-left: 400px;
+        height: 50px;
+        background-color: rgb(23, 72, 92);
+        color: antiquewhite;
+        font-size: 25px;
+        border-radius: 10px;
+       }
+       .div9{
+        display: flex;
+        flex-direction: row;
+        font-size: 40px;
+        background-color: rgb(5, 34, 51);
+        justify-content: space-around;
+        color: rgb(97, 64, 21);
+       }
+       .div9 i{
+        color: rgb(48, 119, 160);
+       }
+    
+       .div10{
+        display: flex;
+        flex-direction: column;
+        color: white;
+       }
+
+       .bt2{
+       
+        margin-top: 5px;
+        padding-bottom: -220px;
+        margin-left: 270px;
+
+       }
+       .card-title{
+        font-size:17px;
+       }
+       .list li{
+        font-size: 15px;
+       }
+       .form-control{
+        width: 260px;
+        margin: 1px 20px ;
+       }
+}
